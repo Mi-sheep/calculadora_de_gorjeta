@@ -1,0 +1,113 @@
+.distance {
+    margin-bottom: 2rem;
+}
+
+.input-box {
+    background: var(--very-light-grayish-cyan);
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 1rem;
+    border-radius: 5px;
+}
+
+.input-box:hover {
+    outline: 2px solid var(--strong-cyan);
+}
+
+.input-box:has(input:focus) {
+    outline: 2px solid var(--strong-cyan);
+}
+
+.input-box input {
+    text-align: right;
+    background: transparent;
+}
+
+.input-boxes {
+    margin-top: 0.625rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.input-boxes input[type = 'number']:hover, 
+.input-boxes input[type = 'number']:focus {
+    outline: 2px solid var(--strong-cyan);
+}
+
+.input-boxes input[type = 'button'] {
+    background: var(--very-dark-cyan);
+    color: var(--white);
+    border-radius: 5px;
+    padding-block: 0.375rem;
+}
+
+.input-boxes input[id = 'tip-input'] {
+    background: var(--very-light-grayish-cyan);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tip-amount {
+    margin-bottom: 1.25rem;
+}
+
+.results {
+    background: var(--very-dark-cyan);
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+
+.results-inventado div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.results div p:first-child {
+    line-height: 1.5rem;
+    color: var(--white);
+}
+
+.results span {
+    color: var(--grayish-cyan);
+    font-size: 0.875rem;
+}
+
+.results div p:last-child {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--strong-cyan);
+}
+
+.results button {
+    width: 100%;
+    padding-block: 0.5625rem;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-transform: uppercase;
+    background: var(--strong-cyan);
+    border: 0;
+    border-radius: 5px;
+    color: var(--very-dark-cyan);
+}
+
+.total {
+    margin-bottom: 2rem;
+}
+
+.people {
+    margin-bottom: 1rem;
+}
+
+input[type = 'button']:hover {
+    background: var(--light-cyan);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: var(--light-cyan);
+    cursor: pointer;
+    transition: 0.3s;
+}
