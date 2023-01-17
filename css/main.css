@@ -42,6 +42,10 @@
     padding-block: 0.375rem;
 }
 
+.input-boxes input[type = 'button'].buttom-selected {
+    background: var(--strong-cyan);
+}
+
 .input-boxes input[id = 'tip-input'] {
     background: var(--very-light-grayish-cyan);
     text-align: center;
